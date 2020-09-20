@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,70 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Soundlfors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-rr-I0Y">
+                                <rect key="frame" x="107" y="44" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="drumImage.png"/>
+                                <connections>
+                                    <action selector="tdowndrum" destination="BYZ-38-t0r" eventType="touchDown" id="zxY-xl-ER6"/>
+                                    <action selector="tupdrum" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gm5-Te-aZ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLP-dF-Hxl">
+                                <rect key="frame" x="107" y="252" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="guitarImage.png"/>
+                                <connections>
+                                    <action selector="tdownguitar" destination="BYZ-38-t0r" eventType="touchDown" id="Dos-Bv-OFM"/>
+                                    <action selector="tupguitar" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkw-fM-mIY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sv8-Kx-nAF">
+                                <rect key="frame" x="107" y="460" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pianoImage.png"/>
+                                <connections>
+                                    <action selector="tdownpiano" destination="BYZ-38-t0r" eventType="touchDown" id="ly9-Og-6lH"/>
+                                    <action selector="tuppiano" destination="BYZ-38-t0r" eventType="touchUpInside" id="4W6-BH-liG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ff-MJ-yNy">
+                                <rect key="frame" x="107" y="668" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="cymbalImage.png"/>
+                                <connections>
+                                    <action selector="tdowncymbal" destination="BYZ-38-t0r" eventType="touchDown" id="9li-ra-Czh"/>
+                                    <action selector="tupcymbal" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6l-zA-5Mv"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                     </view>
+                    <connections>
+                        <outlet property="cymbalButton" destination="2ff-MJ-yNy" id="bjn-va-Lk7"/>
+                        <outlet property="drumButton" destination="RxZ-rr-I0Y" id="Qqz-IG-0DF"/>
+                        <outlet property="guitarButton" destination="aLP-dF-Hxl" id="NRD-I1-kvX"/>
+                        <outlet property="pianoButton" destination="sv8-Kx-nAF" id="gR1-n6-FWt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="78"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cymbalImage.png" width="200" height="200"/>
+        <image name="drumImage.png" width="200" height="200"/>
+        <image name="guitarImage.png" width="200" height="200"/>
+        <image name="pianoImage.png" width="200" height="200"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

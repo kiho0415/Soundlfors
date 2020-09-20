@@ -15,6 +15,18 @@
 		F97B5396251744CC001E934A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97B5394251744CC001E934A /* LaunchScreen.storyboard */; };
 		F97B53A1251744CD001E934A /* SoundlforsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53A0251744CD001E934A /* SoundlforsTests.swift */; };
 		F97B53AC251744CD001E934A /* SoundlforsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53AB251744CD001E934A /* SoundlforsUITests.swift */; };
+		F97B53C92517452C001E934A /* pianoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53BD2517452C001E934A /* pianoImage.png */; };
+		F97B53CA2517452C001E934A /* guitarPlayingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53BE2517452C001E934A /* guitarPlayingImage.png */; };
+		F97B53CB2517452C001E934A /* cymbalImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53BF2517452C001E934A /* cymbalImage.png */; };
+		F97B53CC2517452C001E934A /* pianoSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C02517452C001E934A /* pianoSound.mp3 */; };
+		F97B53CD2517452C001E934A /* pianoPlayingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C12517452C001E934A /* pianoPlayingImage.png */; };
+		F97B53CE2517452C001E934A /* guitarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C22517452C001E934A /* guitarImage.png */; };
+		F97B53CF2517452C001E934A /* drumPlayingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C32517452C001E934A /* drumPlayingImage.png */; };
+		F97B53D02517452C001E934A /* drumImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C42517452C001E934A /* drumImage.png */; };
+		F97B53D12517452C001E934A /* symbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C52517452C001E934A /* symbal.mp3 */; };
+		F97B53D22517452C001E934A /* guitarSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C62517452C001E934A /* guitarSound.mp3 */; };
+		F97B53D32517452C001E934A /* drumSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C72517452C001E934A /* drumSound.mp3 */; };
+		F97B53D42517452C001E934A /* cymbalPlayingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F97B53C82517452C001E934A /* cymbalPlayingImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		F97B53A7251744CD001E934A /* SoundlforsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundlforsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97B53AB251744CD001E934A /* SoundlforsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundlforsUITests.swift; sourceTree = "<group>"; };
 		F97B53AD251744CD001E934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97B53BD2517452C001E934A /* pianoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoImage.png; sourceTree = "<group>"; };
+		F97B53BE2517452C001E934A /* guitarPlayingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitarPlayingImage.png; sourceTree = "<group>"; };
+		F97B53BF2517452C001E934A /* cymbalImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cymbalImage.png; sourceTree = "<group>"; };
+		F97B53C02517452C001E934A /* pianoSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoSound.mp3; sourceTree = "<group>"; };
+		F97B53C12517452C001E934A /* pianoPlayingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoPlayingImage.png; sourceTree = "<group>"; };
+		F97B53C22517452C001E934A /* guitarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitarImage.png; sourceTree = "<group>"; };
+		F97B53C32517452C001E934A /* drumPlayingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drumPlayingImage.png; sourceTree = "<group>"; };
+		F97B53C42517452C001E934A /* drumImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drumImage.png; sourceTree = "<group>"; };
+		F97B53C52517452C001E934A /* symbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = symbal.mp3; sourceTree = "<group>"; };
+		F97B53C62517452C001E934A /* guitarSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarSound.mp3; sourceTree = "<group>"; };
+		F97B53C72517452C001E934A /* drumSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumSound.mp3; sourceTree = "<group>"; };
+		F97B53C82517452C001E934A /* cymbalPlayingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cymbalPlayingImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,7 @@
 		F97B5388251744C8001E934A /* Soundlfors */ = {
 			isa = PBXGroup;
 			children = (
+				F97B53BC2517452C001E934A /* sound */,
 				F97B5389251744C8001E934A /* AppDelegate.swift */,
 				F97B538B251744C8001E934A /* SceneDelegate.swift */,
 				F97B538D251744C8001E934A /* ViewController.swift */,
@@ -126,6 +151,25 @@
 				F97B53AD251744CD001E934A /* Info.plist */,
 			);
 			path = SoundlforsUITests;
+			sourceTree = "<group>";
+		};
+		F97B53BC2517452C001E934A /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				F97B53BD2517452C001E934A /* pianoImage.png */,
+				F97B53BE2517452C001E934A /* guitarPlayingImage.png */,
+				F97B53BF2517452C001E934A /* cymbalImage.png */,
+				F97B53C02517452C001E934A /* pianoSound.mp3 */,
+				F97B53C12517452C001E934A /* pianoPlayingImage.png */,
+				F97B53C22517452C001E934A /* guitarImage.png */,
+				F97B53C32517452C001E934A /* drumPlayingImage.png */,
+				F97B53C42517452C001E934A /* drumImage.png */,
+				F97B53C52517452C001E934A /* symbal.mp3 */,
+				F97B53C62517452C001E934A /* guitarSound.mp3 */,
+				F97B53C82517452C001E934A /* cymbalPlayingImage.png */,
+				F97B53C72517452C001E934A /* drumSound.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +275,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97B53D12517452C001E934A /* symbal.mp3 in Resources */,
 				F97B5396251744CC001E934A /* LaunchScreen.storyboard in Resources */,
+				F97B53CA2517452C001E934A /* guitarPlayingImage.png in Resources */,
+				F97B53D22517452C001E934A /* guitarSound.mp3 in Resources */,
 				F97B5393251744CC001E934A /* Assets.xcassets in Resources */,
+				F97B53CE2517452C001E934A /* guitarImage.png in Resources */,
+				F97B53D32517452C001E934A /* drumSound.mp3 in Resources */,
+				F97B53CC2517452C001E934A /* pianoSound.mp3 in Resources */,
 				F97B5391251744C8001E934A /* Main.storyboard in Resources */,
+				F97B53CF2517452C001E934A /* drumPlayingImage.png in Resources */,
+				F97B53C92517452C001E934A /* pianoImage.png in Resources */,
+				F97B53D02517452C001E934A /* drumImage.png in Resources */,
+				F97B53CD2517452C001E934A /* pianoPlayingImage.png in Resources */,
+				F97B53D42517452C001E934A /* cymbalPlayingImage.png in Resources */,
+				F97B53CB2517452C001E934A /* cymbalImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
