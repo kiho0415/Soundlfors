@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F97B538A251744C8001E934A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B5389251744C8001E934A /* AppDelegate.swift */; };
+		F97B538C251744C8001E934A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B538B251744C8001E934A /* SceneDelegate.swift */; };
+		F97B538E251744C8001E934A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B538D251744C8001E934A /* ViewController.swift */; };
+		F97B5391251744C8001E934A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97B538F251744C8001E934A /* Main.storyboard */; };
+		F97B5393251744CC001E934A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97B5392251744CC001E934A /* Assets.xcassets */; };
+		F97B5396251744CC001E934A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97B5394251744CC001E934A /* LaunchScreen.storyboard */; };
+		F97B53A1251744CD001E934A /* SoundlforsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53A0251744CD001E934A /* SoundlforsTests.swift */; };
+		F97B53AC251744CD001E934A /* SoundlforsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53AB251744CD001E934A /* SoundlforsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F97B539D251744CD001E934A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97B537E251744C8001E934A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97B5385251744C8001E934A;
+			remoteInfo = Soundlfors;
+		};
+		F97B53A8251744CD001E934A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97B537E251744C8001E934A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97B5385251744C8001E934A;
+			remoteInfo = Soundlfors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F97B5386251744C8001E934A /* Soundlfors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundlfors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97B5389251744C8001E934A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F97B538B251744C8001E934A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F97B538D251744C8001E934A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F97B5390251744C8001E934A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F97B5392251744CC001E934A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97B5395251744CC001E934A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F97B5397251744CC001E934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97B539C251744CD001E934A /* SoundlforsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundlforsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97B53A0251744CD001E934A /* SoundlforsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundlforsTests.swift; sourceTree = "<group>"; };
+		F97B53A2251744CD001E934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97B53A7251744CD001E934A /* SoundlforsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundlforsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97B53AB251744CD001E934A /* SoundlforsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundlforsUITests.swift; sourceTree = "<group>"; };
+		F97B53AD251744CD001E934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97B5383251744C8001E934A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97B5399251744CD001E934A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97B53A4251744CD001E934A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97B537D251744C8001E934A = {
+			isa = PBXGroup;
+			children = (
+				F97B5388251744C8001E934A /* Soundlfors */,
+				F97B539F251744CD001E934A /* SoundlforsTests */,
+				F97B53AA251744CD001E934A /* SoundlforsUITests */,
+				F97B5387251744C8001E934A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F97B5387251744C8001E934A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97B5386251744C8001E934A /* Soundlfors.app */,
+				F97B539C251744CD001E934A /* SoundlforsTests.xctest */,
+				F97B53A7251744CD001E934A /* SoundlforsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97B5388251744C8001E934A /* Soundlfors */ = {
+			isa = PBXGroup;
+			children = (
+				F97B5389251744C8001E934A /* AppDelegate.swift */,
+				F97B538B251744C8001E934A /* SceneDelegate.swift */,
+				F97B538D251744C8001E934A /* ViewController.swift */,
+				F97B538F251744C8001E934A /* Main.storyboard */,
+				F97B5392251744CC001E934A /* Assets.xcassets */,
+				F97B5394251744CC001E934A /* LaunchScreen.storyboard */,
+				F97B5397251744CC001E934A /* Info.plist */,
+			);
+			path = Soundlfors;
+			sourceTree = "<group>";
+		};
+		F97B539F251744CD001E934A /* SoundlforsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F97B53A0251744CD001E934A /* SoundlforsTests.swift */,
+				F97B53A2251744CD001E934A /* Info.plist */,
+			);
+			path = SoundlforsTests;
+			sourceTree = "<group>";
+		};
+		F97B53AA251744CD001E934A /* SoundlforsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F97B53AB251744CD001E934A /* SoundlforsUITests.swift */,
+				F97B53AD251744CD001E934A /* Info.plist */,
+			);
+			path = SoundlforsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97B5385251744C8001E934A /* Soundlfors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97B53B0251744CD001E934A /* Build configuration list for PBXNativeTarget "Soundlfors" */;
+			buildPhases = (
+				F97B5382251744C8001E934A /* Sources */,
+				F97B5383251744C8001E934A /* Frameworks */,
+				F97B5384251744C8001E934A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundlfors;
+			productName = Soundlfors;
+			productReference = F97B5386251744C8001E934A /* Soundlfors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F97B539B251744CD001E934A /* SoundlforsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97B53B3251744CD001E934A /* Build configuration list for PBXNativeTarget "SoundlforsTests" */;
+			buildPhases = (
+				F97B5398251744CD001E934A /* Sources */,
+				F97B5399251744CD001E934A /* Frameworks */,
+				F97B539A251744CD001E934A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97B539E251744CD001E934A /* PBXTargetDependency */,
+			);
+			name = SoundlforsTests;
+			productName = SoundlforsTests;
+			productReference = F97B539C251744CD001E934A /* SoundlforsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F97B53A6251744CD001E934A /* SoundlforsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97B53B6251744CD001E934A /* Build configuration list for PBXNativeTarget "SoundlforsUITests" */;
+			buildPhases = (
+				F97B53A3251744CD001E934A /* Sources */,
+				F97B53A4251744CD001E934A /* Frameworks */,
+				F97B53A5251744CD001E934A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97B53A9251744CD001E934A /* PBXTargetDependency */,
+			);
+			name = SoundlforsUITests;
+			productName = SoundlforsUITests;
+			productReference = F97B53A7251744CD001E934A /* SoundlforsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97B537E251744C8001E934A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F97B5385251744C8001E934A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F97B539B251744CD001E934A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F97B5385251744C8001E934A;
+					};
+					F97B53A6251744CD001E934A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F97B5385251744C8001E934A;
+					};
+				};
+			};
+			buildConfigurationList = F97B5381251744C8001E934A /* Build configuration list for PBXProject "Soundlfors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F97B537D251744C8001E934A;
+			productRefGroup = F97B5387251744C8001E934A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97B5385251744C8001E934A /* Soundlfors */,
+				F97B539B251744CD001E934A /* SoundlforsTests */,
+				F97B53A6251744CD001E934A /* SoundlforsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F97B5384251744C8001E934A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97B5396251744CC001E934A /* LaunchScreen.storyboard in Resources */,
+				F97B5393251744CC001E934A /* Assets.xcassets in Resources */,
+				F97B5391251744C8001E934A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97B539A251744CD001E934A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97B53A5251744CD001E934A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97B5382251744C8001E934A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97B538E251744C8001E934A /* ViewController.swift in Sources */,
+				F97B538A251744C8001E934A /* AppDelegate.swift in Sources */,
+				F97B538C251744C8001E934A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97B5398251744CD001E934A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97B53A1251744CD001E934A /* SoundlforsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97B53A3251744CD001E934A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97B53AC251744CD001E934A /* SoundlforsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F97B539E251744CD001E934A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97B5385251744C8001E934A /* Soundlfors */;
+			targetProxy = F97B539D251744CD001E934A /* PBXContainerItemProxy */;
+		};
+		F97B53A9251744CD001E934A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97B5385251744C8001E934A /* Soundlfors */;
+			targetProxy = F97B53A8251744CD001E934A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F97B538F251744C8001E934A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97B5390251744C8001E934A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F97B5394251744CC001E934A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97B5395251744CC001E934A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97B53AE251744CD001E934A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F97B53AF251744CD001E934A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F97B53B1251744CD001E934A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9X9VCT8TE;
+				INFOPLIST_FILE = Soundlfors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.Soundlfors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F97B53B2251744CD001E934A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9X9VCT8TE;
+				INFOPLIST_FILE = Soundlfors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.Soundlfors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F97B53B4251744CD001E934A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9X9VCT8TE;
+				INFOPLIST_FILE = SoundlforsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.SoundlforsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundlfors.app/Soundlfors";
+			};
+			name = Debug;
+		};
+		F97B53B5251744CD001E934A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9X9VCT8TE;
+				INFOPLIST_FILE = SoundlforsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.SoundlforsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundlfors.app/Soundlfors";
+			};
+			name = Release;
+		};
+		F97B53B7251744CD001E934A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9X9VCT8TE;
+				INFOPLIST_FILE = SoundlforsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.SoundlforsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soundlfors;
+			};
+			name = Debug;
+		};
+		F97B53B8251744CD001E934A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9X9VCT8TE;
+				INFOPLIST_FILE = SoundlforsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.kihomori.morita.SoundlforsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soundlfors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F97B5381251744C8001E934A /* Build configuration list for PBXProject "Soundlfors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97B53AE251744CD001E934A /* Debug */,
+				F97B53AF251744CD001E934A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97B53B0251744CD001E934A /* Build configuration list for PBXNativeTarget "Soundlfors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97B53B1251744CD001E934A /* Debug */,
+				F97B53B2251744CD001E934A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97B53B3251744CD001E934A /* Build configuration list for PBXNativeTarget "SoundlforsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97B53B4251744CD001E934A /* Debug */,
+				F97B53B5251744CD001E934A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97B53B6251744CD001E934A /* Build configuration list for PBXNativeTarget "SoundlforsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97B53B7251744CD001E934A /* Debug */,
+				F97B53B8251744CD001E934A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97B537E251744C8001E934A /* Project object */;
+}
